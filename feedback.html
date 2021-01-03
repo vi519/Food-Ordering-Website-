@@ -1,0 +1,47 @@
+<html>
+<head>
+<link href="thanku.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" media="screen" href="C:\wamp\www\Food ordering System\menu.css" />
+</head>
+
+<body>
+	
+        <div class="header">
+            <!-- <nav> -->
+            <div class="row clearfix">
+                <div class="leftmenu">
+                    <h2> EAT WELL </h2>
+                </div>
+                <div class="main">
+                    <ul class="navmenu">
+                        <li><a href=" " target="_self">HOME</a></li>
+                        <li><a href=" " target="_self">MENU</a></li>
+                        <li><a href=" " target="_self">ABOUT US</a></li>
+                        <li><a href=" " target="_self">LOGIN</a></li>
+                        <li><a href=" " target="_self">FEEDBACK</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- </nav> -->
+        </div>
+
+<form action="feedback.php" method ="post">
+<div class="feed-title">
+<h1>FEEDBACK FORM</h1></div>
+</br/>
+
+<div class="feed-form">
+<form id="feed-form" method="post" action="">
+<input name="name" type="text" class="form-control" placeholder="Name:" required="">
+<br>
+<input name="email" type="text" class="form-control" placeholder="Email:" required="">  
+<br>
+<input name="mobile" type="text"class="form-control" placeholder="Mobile" required="">
+<br>
+<textarea name="message" class="form-control" placeholder="Message" rows="4" required=""></textarea>
+<br>
+<input type="submit" value="submit" name="submit" class="btn">
+</form>
+</div>
+</body>
+</html>

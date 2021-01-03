@@ -1,0 +1,205 @@
+<html>
+<head>
+<title>food delivery</title>
+ 
+<style type="text/css" media="all"> 
+ 
+
+ 
+body {
+background: transparent url(images/logo.gif)repeat left top ;
+}
+ 
+table {
+color:white;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+font-size: 10pt;
+font-family: arial,helvetica,sans-serif;
+background-color: white; }
+ 
+td#header {
+font-size: 16pt;
+text-align: center; }
+ 
+td, th {
+padding: .3em; }
+ 
+td.align {
+vertical-align: top; }
+ 
+h1 {
+width: 775px;
+height: 125px;
+font-size: 20pt;
+font-family: "bernhardmod BT",serif;
+padding: 15 15 0 40;
+background-image: url(logo.png);
+background-repeat: no-repeat;
+text-align: center;
+border-bottom: groove thick;
+margin-bottom: 0; }
+ 
+.center {
+text-align: center; }
+ 
+tr#black {
+color: white;
+background-color: white;
+font-weight: bold;
+text-align: center; }
+ 
+
+ 
+ 
+td#body {
+color: black;
+background-image: url(1.jpg);
+text-align: justify; }
+ 
+button {
+margin-left: 1em; }
+
+
+body  {
+  background-image: url("B.jpg");
+  background-color: #cccccc;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.columnfooter {
+    float: left;
+    width: 33.33%;
+    padding-top: 70;
+    text-align: center;
+}
+ 
+</style>
+ 
+<script type="text/javascript"> 
+ 
+
+ 
+	
+ 
+	
+ 
+function checkForm1() {
+  if (document.form1.prod.selectedIndex == 0)
+    {alert ("Select literature");
+     return false;}
+  else if (document.form1.qty.selectedIndex == 0)
+    {alert ("Select quantity");
+     return false;}
+  else if (document.form1.ship.value == "0.00")
+    {alert ("Select a shipping option");
+     return false;}
+  else return true;
+}
+ 
+</script>
+</head>
+ 
+<body>
+<div class="center">
+ 
+<table border="0">
+<tr id="header">
+  <td colspan="2"></td>
+</tr>
+<tr>
+<td align="right">
+<script type="text/javascript"> 
+ 
+
+ 
+</script>
+</td></tr>
+
+ 
+
+</script></b></td></tr>
+ 
+<tr>
+  <td id="body" colspan="2"><br /><p>The business of food delivery is undergoing rapid change every day as we are capturing markets and customers across the country. So as we grow along with the times, we are always looking for great people to join us on this exciting journey</p>
+ 
+<p><strong><u>VIEW CART</u></strong></p>
+ 
+<p><img src="DOSA.jpg" alt="Quarter One:  HTML Literature" width="75" height="85" />
+<input type="checkbox" id="HTML" value="HTML" />Dosa <strong>Rs.50.49</strong></p>
+
+  <select id="quantity" size="1">
+    <option>Quantity</option>
+    <option selected="1">1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+    <option>10</option>
+  </select>
+  <button type="submit">Remove</button>
+<p> <Strong> Total :- 50.49 </Strong> <p> 
+<p><img src="SMOTHIES.jpg" alt="Quarter Two: JavaScript Literature" width="75" height="85" />
+<input type="checkbox" id="javascript" value="javascript" /> Smothies <strong>Rs.63.49</strong></p>
+  <select id="quantity" size="1">
+    <option>Quantity</option>
+    <option selected="1">1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+    <option>10</option>
+  </select>
+  <button type="submit">Remove</button>
+
+<p> <Strong> Total  :- 63.49 </Strong> </p>
+  
+<br />
+<br />
+ 
+
+<div class="row">
+            <div class="columnfooter">
+            <h2>Locations</h2>
+            <br><br>
+            <pre>
+    8901 Marmora Road,
+    Glasgow,D04 89GR.
+    Freephone: +1800 559 6580
+            </pre>
+            </div>
+            <div class="columnfooter">
+            <h2>Newsletter</h2>
+            <br><br>
+            <input type="email" placeholder="Enter Your Email">
+            <input type="submit">
+            </div>
+            <div class="columnfooter">
+            <h2>Copyright</h2>
+            <br>
+            <img src="logo.png" class="footer_image" width="30%">
+            </div>
+        </div> 
+ 
+ 
+ 
+
+</table>
+</div>
+</body>
+</html>
